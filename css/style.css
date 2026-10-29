@@ -1,0 +1,110 @@
+*{
+  Box-sizing: border-box;
+  Margin:0;
+  Padding:0;
+  Font-family: Arial, sans-serif;
+}
+Body{
+  Background-color: honeydew;
+  Color:darkslategray;
+  Line-height:1.6;
+}
+Header{
+  Background-color: teal;
+  Color:white;
+  Padding:15px;
+}
+.header‑info{
+  Display:flex;
+  Align-items:center;
+  Gap:12px;
+  Margin-bottom:10px;
+}
+.header-pic{
+  Width:60px;
+  Height:60px;
+  Border-radius:50%;
+  Object-fit:cover;
+}
+Nav{
+  Display:flex;
+  Gap:24px;
+  Flex-wrap:wrap;
+}
+Nav a{
+  Color:white;
+  Text-decoration:none;
+  Font-weight:bold;
+}
+Main{
+  Max-width:900px;
+  Margin:20px auto;
+  Padding:0 15px;
+}
+H2{
+  Text-align:center;
+  Margin:25px 0 15px;
+  Color:teal;
+}
+.section-box{
+  Background-color:mintcream;
+  Padding:20px;
+  Border-radius:12px;
+  Box-shadow:0 0 15px aquamarine;
+  Margin-bottom:25px;
+}
+
+.sub-box{
+  Margin-top:20px;
+  Padding:12px;
+  Background-color:skyblue;
+  Border-radius:8px;
+}
+.item-box{
+  Background-color:white;
+  Text-align:center;
+  Padding:6px;
+  Margin:6px 0;
+  Border-radius:4px;
+}
+.flex-two{
+  Display:flex;
+  Gap:20px;
+  Flex-wrap:wrap;
+}
+Form label{
+  Display:block;
+  Margin:10px 0 4px;
+}
+Input, textarea{
+  Width:100%;
+  Padding:8px;
+  Border:1px solid lightgray;
+  Border-radius:4px;
+}
+Textarea{
+  Min-height:100px;
+}
+.button-row{
+  Display:flex;
+  Gap:10px;
+  Margin-top:15px;
+}
+.btn-purple{
+  Flex:1;
+  Background-color:teal;
+  Color:white;
+  Border:none;
+  Padding:10px;
+  Border-radius:4px;
+  Font-weight:bold;
+}
+Footer{
+  Background-color:teal;
+  Color:white;
+  Text-align:center;
+  Padding:12px;
+  Margin-top:30px;
+}
+
+
